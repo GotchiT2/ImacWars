@@ -2,6 +2,7 @@
 #include <string>
 #include <cstring>
 #include "rules.cpp"
-#include "functions.cpp"
+
+using namespace std;
 
 void dispRules();

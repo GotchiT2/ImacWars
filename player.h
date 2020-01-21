@@ -1,21 +1,10 @@
-#pragma once
-
 #include <iostream>
 #include <string>
-#include "stdlib.h"
+#include <cstring>
+#include "player.cpp"
 
 using namespace std;
 
-class character {
-public:
-  character();
-  //Local Attributes
-  int id;
-  int numberOfUnities;
-  string playerName;
-  bool isAlive();
 
 
-};
-
-// Functions
+void createPlayers(int id, player *player1, int id2, player *player2);
